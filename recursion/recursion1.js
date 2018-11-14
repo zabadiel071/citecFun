@@ -1,8 +1,12 @@
 let countDownFrom = (num) => {
-  if (num > 0 ) return
+  console.log(num)
+  if (num === 0 ) return num
   countDownFrom(num -1)
 }
 
+countDownFrom(10)
+
+/*
 let reverseArray = (num , arr) => {
    arr.push(num)
    if(num === 0 ) return  arr
@@ -12,3 +16,4 @@ let reverseArray = (num , arr) => {
 let result = reverseArray(5 , [])
 
 console.log(result)
+*/

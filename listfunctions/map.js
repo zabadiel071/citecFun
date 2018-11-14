@@ -5,13 +5,13 @@ let people = [
   { name : 'giovanni', country: 'italy'},
   { name : 'ivan' , country: 'russia'}
 ]
-
+  
 let peopleUpper = people.map(person => {
   return { name: person.name.toUpperCase() , country : person.country.toUpperCase() }
 })
 console.log('peopleUpper:' , peopleUpper)
 console.log('people:' , people)
-
+  
 
 /*
 implementación de map
